@@ -1,0 +1,6 @@
+import gleam/io
+import day_%N%
+
+pub fn main() {
+  io.debug(day_%N%.main())
+}
