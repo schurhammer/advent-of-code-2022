@@ -26,5 +26,5 @@ fn run(input, n) {
 pub fn main() {
   assert Ok(input) = file.read("input/day_01")
   let input = string.trim(input)
-  #(run(input, 1), run(input, 3))
+  [run(input, 1), run(input, 3)]
 }

@@ -1,6 +1,6 @@
 import gleam/io
-import day_02
+import day_03
 
 pub fn main() {
-  io.debug(day_02.main())
+  io.debug(day_03.main())
 }
