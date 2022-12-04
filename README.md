@@ -1,6 +1,6 @@
 # Advent of Code 2022
 
-Advent of Code 2022 written in gleam!
+[Advent of Code](https://adventofcode.com/) 2022 written in gleam!
 
 ## Scaffold
 

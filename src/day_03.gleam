@@ -26,8 +26,7 @@ fn run(input) {
     assert [x] =
       set.intersection(a, b)
       |> set.to_list
-      |> list.map(priority)
-    x
+    priority(x)
   })
   |> int.sum
 }
