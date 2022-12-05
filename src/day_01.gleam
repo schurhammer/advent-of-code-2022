@@ -1,11 +1,6 @@
-import gleam/bit_string
 import gleam/erlang/file
-import gleam/float
 import gleam/int
-import gleam/io
 import gleam/list
-import gleam/order
-import gleam/result
 import gleam/string
 
 fn run(input, n) {
