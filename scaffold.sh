@@ -23,15 +23,6 @@ else
   echo "src/day_$n.gleam already exists"
 fi
 
-if [ ! -f "test/day_${n}_test.gleam" ]; then
-  echo "Generating test/day_${n}_test.gleam"
-  cat "test/day_xx_test.template" \
-  | sed "s/%N%/$n/g" \
-  > "test/day_${n}_test.gleam"
-else
-  echo "test/day_${n}_test.gleam already exists"
-fi
-
 echo "updating src/aoc2022.gleam"
 cat "src/aoc2022.template" \
   | sed "s/%N%/$n/g" \
